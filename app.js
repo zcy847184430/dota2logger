@@ -46,6 +46,8 @@ function main() {
 						});
 					}
 					else {
+						console.log("New post!");
+
 						var time = new Date(0);
 						time.setUTCSeconds(element.data.created_utc);
 
