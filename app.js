@@ -31,7 +31,7 @@ function main() {
 		
 		obj.data.children.forEach(function(element) {
 
-			if(counter < 12) {
+			if(counter < 16) {
 				counter++;
 				console.log(element.data.title + " " + element.data);
 
