@@ -86,7 +86,7 @@ function what() {
 }
 
 db.on('error', () => { console.log("welp"); })
-db.once('open', () => { setInterval(main, 5000) })
+db.once('open', () => { setInterval(main, 900000) })
 
 
 
